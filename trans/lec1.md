@@ -6,9 +6,11 @@ class: middle, center
 
 陈一帅
 
-[yschen@bjtu.edu.cn](mailto:yschen@bjtu.edu.cn)
+.smaller[[yschen@bjtu.edu.cn](mailto:yschen@bjtu.edu.cn)]
 
-北京交通大学电子信息工程学院
+.smaller[网络智能实验室]
+
+.smaller[北京交通大学电子信息工程学院]
 
 .footnote[呼局中青班]
 

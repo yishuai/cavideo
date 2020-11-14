@@ -2,110 +2,253 @@ class: middle, center
 
 ### 大数据时代下人工智能技术的应用与创新
 
-# 应用与创新（交通）
+# 应用与创新（视觉）
 
 陈一帅
 
-[yschen@bjtu.edu.cn](mailto:yschen@bjtu.edu.cn)
+.smaller[[yschen@bjtu.edu.cn](mailto:yschen@bjtu.edu.cn)]
 
-北京交通大学电子信息工程学院
+.smaller[网络智能实验室]
+
+.smaller[北京交通大学电子信息工程学院]
 
 .footnote[呼局中青班]
-
 ---
 # 内容
+- .red[背景]
+- 目标检测和识别
+- 图像分割
+- 应用
+- 应注意的问题
+---
+# 基本研究问题
 
-- 交通流量分析与预测
-- 事故风险分析、预测与响应
+- 目标检测、分割、识别
 
+.center[.width-100[![](figures/rail/rail.png)]]
+
+---
+class: middle, center
+# 困难
+
+遮蔽、干扰、噪声
+
+---
+# 拖把狗
+.center[.width-80[![](../ai/figures/all/dog1.jpg)]]
+---
+# 蛋糕 dog
+.center[.width-80[![](../ai/figures/all/dog2.jpg)]]
+
+---
+# 图像分割
+- Object Segmentation
+- 从图形中提取对象的轮廓
+
+.center[.width-80[![](../ai/figures/all/dog_segment.jpg)]]
+---
+# 语义分割
+
+- 同一类的多个物体可以分在一起
+- 和另一类物体分开
+
+<br>
+.center[.width-100[![](../ai/figures/all/cls_4_2.jpg)]]
+
+---
+class: middle, center
+# 效果（2017）
+<!-- <video width="700" controls>
+    <source src="./video/seg.mp4" type="video/mp4">
+</video> -->
+<div class="aspect-ratio">
+  <iframe src="//player.bilibili.com/player.html?aid=54907833&cid=96023749&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+</div>
+
+---
+# 实例分割
+
+- 同一类的多个物体，互相也要分开
+
+<br>
+.center[.width-100[![](../ai/figures/all/cls_4_3.jpg)]]
+
+---
+# 效果
+
+<br>
+.center[.width-100[![](../ai/figures/all/segmentationresults2.jpg)]]
+---
+# 效果
+
+- Mask RCNN效果
+
+.center[.width-100[![](../ai/figures/all/maskrcnn.gif)]]
 ---
 # 内容
-
-- .red[交通流量分析与预测]
-- 事故风险分析、预测与响应
-
+- 背景
+- 目标检测和识别
+- 图像分割
+- .red[应用]
+- 应注意的问题
 ---
-# 流量分析
+class: center, middle
 
-.center[.width-90[![](./figures/trans/demand2.png)]]
-
-.center[北京地铁入口流量]
-.smallest[Haodong Yin, etc., Modeling and Simulating Passenger Behavior for a Station Closure in a Rail Transit Network, 2016]
-
+# 应用
 ---
-# 流量预测
-
-.center[.width-90[![](./figures/trans/demand1.png)]]
-.smallest[Yun Wang, Deep Learning for Bus Passenger Demand Prediction Using Big Data]
+# 工业机器人
+.center[.width-100[![](../ai/figures/all/maskrcnn-video.gif)]]
+---
+# 3D建筑物
+.center[.width-100[![](../ai/figures/all/maskrcnn-project_3dbuildings.png)]]
+---
+# 照片特效
+.center[.width-100[![](../ai/figures/all/maskrcnn-project_shiny1.jpg)]]
 
 ???
+https://github.com/matterport/Mask_RCNN
+---
+# 人脸检测
+.center[.width-90[![](../ai/figures/all/face-challenge.png)]]
+---
+# 人脸识别
+- 美国马里兰州枪击事件，人脸识别技术找出了嫌犯
+- 流行歌星泰勒·斯威夫特，演唱会上过滤狂热粉丝和跟踪狂
+- 收容所追踪收容所和避难所的使用情况
+---
+# 姿势检测与识别
 
-.smallest[Zhenzhu Wang, Yishuai Chen, Jian Su, Yuchun Guo, Yongxiang Zhao, etc. Measurement and Prediction of Regional Traffic Volume in Holidays, IEEE Intelligent Transportation Systems Conference (ITSC) 2019, pp.486-491]
-魏中锐，基于深度学习的交通流量预测，硕士学位论文，2019年，导师：郭宇春
+.center[.width-100[![](../ai/figures/all/pose.jpg)]]
+---
+# 情感识别
+
+.center[.width-100[![](../ai/figures/all/emotion.jpg)]]
+---
+# 交通流量计数
+
+.center[.width-100[![](../ai/figures/all/retinanet.gif)]]
+
+???
+https://towardsdatascience.com/review-retinanet-focal-loss-object-detection-38fba6afabe4
+
+---
+class: middle, center
+# 交通流量计数
+
+<!-- <video width="700" controls>
+    <source src="./video/traffic-count.mp4" type="video/mp4">
+</video> -->
+<div class="aspect-ratio">
+  <iframe src="//player.bilibili.com/player.html?aid=54907357&cid=96026074&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+</div>
+---
+class: middle, center
+# 交通流量计数
+
+<!-- <video width="700" controls>
+    <source src="./video/traffic-count2.mp4" type="video/mp4">
+</video> -->
+<div class="aspect-ratio">
+  <iframe src="//player.bilibili.com/player.html?aid=54907492&cid=96024461&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+</div>
+---
+# 交通信号识别
+
+.center[.width-90[![](../ai/figures/all/traffic-challenge.png)]]
+---
+class: middle, center
+# 铁轨检测
+<!-- <video width="700" controls>
+    <source src="./video/railway.mp4" type="video/mp4">
+</video> -->
+<div class="aspect-ratio">
+  <iframe src="//player.bilibili.com/player.html?aid=54907949&cid=96020491&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+</div>
+---
+class: middle, center
+# 道口监控
+<!-- <video width="700" controls>
+    <source src="./video/crossing.mp4" type="video/mp4">
+</video> -->
+<div class="aspect-ratio">
+  <iframe src="//player.bilibili.com/player.html?aid=54906667&bvid=BV1F4411T7FZ&cid=96023038&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+</div>
+
+---
+# 文本识别
+.center[.width-100[![](../ai/figures/all/text-challenge.png)]]
+---
+# 清晰度增强
+.center[.width-100[![](../ai/figures/all/vision_translation.jpg)]]
+---
+# 去噪
+
+.center[.width-80[![](../ai/figures/all/denoising.jpg)]]
+---
+# 图像转换
+- 图像还原、渲染、着色
+- 地图提取、场景转换
+
+<br>
+.center[.width-100[![](../ai/figures/all/pix2pix.jpg)]]
+---
+# 图像理解
+
+图像 - 问答 - 文本描述
+
+.center[.width-100[![](../ai/figures/all/nlp_vision.jpg)]]
+---
+class: middle,center
+# 实时图像理解（2015）
+<!-- <video width="700" controls>
+    <source src="./video/caption.mp4" type="video/mp4">
+</video> -->
+<div class="aspect-ratio">
+  <iframe src="//player.bilibili.com/player.html?aid=54906321&cid=96021881&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+</div>
+<!-- .center[.width-100[![](../ai/figures/all/caption1.jpg)]] -->
+<!-- .center[.width-100[![](../ai/figures/all/captioning_model.jpg)]] -->
 
 ---
 # 内容
-
-- 交通流量分析与预测
-- .red[事故风险分析、预测与响应]
-
----
-# 事故信息采集和分析
-
-.center[.width-110[![](./figures/trans/acc4.png)]]
-.center[厦门路网事故分析平台]
-.smallest[Xiaoliang Fan, etc., Big Data Analytics and Visualization with Spatio-Temporal Correlations for Traffic Accidents, ICA3PP 2015]
+- 背景
+- 目标检测和识别
+- 图像分割
+- 应用
+- .red[应注意的问题]
 
 ---
-# 事故信息采集和分析
-
-.center[.width-110[![](./figures/trans/acc5.png)]]
-.center[厦门路网事故时间/地理位置信息分析]
-
+# 应注意的问题
+- 准确率
+- 隐私保护
+- 公平
 ---
-# 事故风险区域预测
-
-- 北京事故多发地区小时级预测
-  - 考虑天气、时间、日期（周日/周末/假日）、车速
-
-.center[.width-110[![](./figures/trans/acc1.png)]]
-.smallest[Honglei Ren, etc. A Deep Learning Approach to the Prediction of Short-term Traffic Accident Risk, 2017, arXiv:1710.09543v1]
-
+# 准确率问题
+- 2018年7月，“美国公民自由联盟”测试了亚马逊的人脸识别系统
+- 将535名国会议员面孔，对照25000张公开的警方嫌疑犯照片。有28个无辜的国会议员被认成了嫌疑犯
+- 对于皮肤较黑的人和女性，人脸识别通常不太准确。所有国会议员的错误率是5.2%，非白人国会议员错误率达39%
 ---
-# 事故风险区域预测
+# 识别错误付出生命代价
+特斯拉自动驾驶系统未成功识别出白色货车
 
-- 北京事故多发地区小时级预测结果
-
-.center[.width-110[![](./figures/trans/acc2.png)]]
-.smallest[Honglei Ren, etc. A Deep Learning Approach to the Prediction of Short-term Traffic Accident Risk, 2017, arXiv:1710.09543v1]
-
+.center[.width-100[![](../ai/figures/all/crash.jpg)]]
 ---
-# 事故风险路段预测
-
-- 休斯顿路网周日下午5点-6点路段风险预测
-
-.center[.width-90[![](./figures/trans/acc3.png)]]
-.smallest[Linhua Li, A GIS-Based Bayesian Approach For Analyzing Spatial-Temporal Patterns Of Traffic Crashes, MS Thesis, Texas A&M University, August 2006]
-
+# 识别错误付出生命代价
+.center[.width-50[![](../ai/figures/all/crash2.jpg)]]
 ---
-# 事故影响评估和规避
+# 识别错误引起民愤
+把人识别成大猩猩
 
-.center[.width-110[![](./figures/trans/acc6.png)]]
-.center[.smaller[（a）根据当前事故的影响计算出的路线（b）驾驶员接近事故位置时受影响区域的时变扩展（c）根据影响的准确预测计算出的路线]]
-.smallest[Bei Pan, etc., Forecasting Spatiotemporal Impact of Traffic Incidents on Road Networks,
-]
-
-???
-(a) route calculated based on current incident’s impact (b) time-varying expansion of impacted region as driver approaches the incident location (c) route calculated based on accurate prediction of impact
-
-事故风险预测
-
-.center[.width-60[![](./figures/trans/acc7.png)]]
-.center[仿真结果，考虑人流移动性]
-.smallest[Quanjun Chen, etc., Learning Deep Representation from Big and Heterogeneous Data for Traffic Accident Inference, AAAI 2016]
-
+.center[.width-80[![](../ai/figures/all/gorillas.jpg)]]
+---
+# 隐私保护
+- 2019年5月14日，旧金山城市监督委员会以8票对1票通过法令，禁止城市工作人员购买和使用人脸识别技术
+- “人脸识别技术危害公民权利和公民自由的倾向大大超过了其声称的好处，这项技术将加剧种族不平等，并威胁到我们不受政府长期监控的生活能力”
 ---
 # 小结
-
-- 交通流量分析与预测
-- 事故风险分析、预测与响应
+- 困难
+- 目标检测和识别
+- 图像分割
+- 应用
+- 应注意的问题
+  - 准确率、隐私保护、公平
