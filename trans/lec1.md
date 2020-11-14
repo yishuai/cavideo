@@ -2,7 +2,7 @@ class: middle, center
 
 ### 大数据时代下人工智能技术的应用与创新
 
-# 大数据
+# 导论
 
 陈一帅
 
@@ -15,22 +15,14 @@ class: middle, center
 ---
 # 内容
 
-- 背景
-- 价值
+- 问题
 - 应用
-- 特征
-- 工作
-- 平台
 
 ---
 # 内容
 
-- .red[背景]
-- 价值
+- .red[问题]
 - 应用
-- 特征
-- 工作
-- 平台
 
 ---
 # 背景
@@ -60,19 +52,9 @@ class: middle, center
   - .red[大数据]，.red[人工智能]
 
 ---
-# 内容
-
-- 背景
-- .red[价值]
-- 应用
-- 特征
-- 工作
-- 平台
-
----
 class: middle, center
 
-# 大数据
+# 什么是大数据？
 
 Big Data
 
@@ -95,7 +77,46 @@ Big Data
   - 需要新的处理模式
 
 ---
-# 机遇
+class: middle, center
+
+# 什么是人工智能？
+
+使计算机像人那样聪明
+
+.center[.width-80[![](./figures/ai.jpeg)]]
+
+???
+
+---
+# 生活中的人工智能
+
+识别垃圾邮件
+
+.center[.width-80[![](./figures/spam.jpeg)]]
+
+---
+# 生活中的人工智能
+
+人脸识别
+
+.center[.width-80[![](../ai/figures/all/face-challenge.png)]]
+
+---
+# 生活中的人工智能
+
+预测房价
+
+.center[.width-100[![](./figures/houseprice.jpg)]]
+
+---
+# 生活中的人工智能
+
+预测股价
+
+.center[.width-100[![](../ai/figures/all/maotai.png)]]
+
+---
+# 问题和机遇
 
 - 更强决策力、洞察力和流程优化力
   - 更深刻、全面的洞察能力
@@ -116,12 +137,8 @@ Big Data
 ---
 # 内容
 
-- 背景
-- 价值
+- 问题
 - .red[应用]
-- 特征
-- 工作
-- 平台
 
 ???
 - 应用特点
@@ -136,7 +153,7 @@ Big Data
 
 ---
 
-# 应用场景：银行、金融
+# 银行、金融
 
 - 应用
   - 贷款、保险、发卡，股票投资组合和趋势分析
@@ -146,7 +163,7 @@ Big Data
 .center[.width-60[![](./figures/finance.jpg)]]
 
 ---
-# 应用场景：医疗
+# 医疗
 
 - 应用
   - 共享电子病历，快速诊断，远程医疗
@@ -156,7 +173,7 @@ Big Data
 .center[.width-70[![](./figures/medicine.jpg)]]
 
 ---
-# 应用场景：互联网
+# 互联网
 
 - 应用
   - 在线广告，商品评分、推荐，搜索结果优化
@@ -166,7 +183,7 @@ Big Data
 .center[.width-70[![](./figures/internet.jpg)]]
 
 ---
-# 应用场景：零售
+# 零售
 
 - 应用
   - 基于位置的精确促销
@@ -178,231 +195,202 @@ Big Data
 .center[.width-70[![](./figures/sale.jpg)]]
 
 ---
-# 内容
+# 交通
 
-- 背景
-- 价值
-- 应用
-- .red[特征]
-- 工作
-- 平台
+- 现代化、智能化的铁路运输管理
+  - 安全、高效
+  - 客户满意
+  - 利润
 
----
-class: middle, center
-
-# 特征
-
-4V
-
-.center[.width-100[![](./figures/4feature.png)]]
+.center[.width-70[![](./figures/huhe-rail.png)]]
 
 ---
-# 数据量大
+# 安全、高效
 
-- 起始计量单位至少是P
-  - P: 1000T
-  - E: 100万T
-  - Z: 10亿T
+- 交通流量分析与预测
+- 风险监控、分析、预测与响应
 
-.center[.width-100[![](./figures/pb.jpeg)]]
+.center[.width-70[![](./figures/huhe-rail-1.jpg)]]
 
 ---
-# 处理速度快
+# 交通流量分析
 
-- 大数据区分于传统数据挖掘最显著的特征
-- 处理速度快，时效性要求高
-  - 设备状态
-  - 交通流量
-  - 对于组织来说，投入巨大成本采集的数据，如果无法及时处理反馈有效信息，得不偿失
-- 「1s定律」，也称为「秒级定律」
-  - 在秒级内作出正确分析，一旦超出这个时间，数据价值就会大打折扣
-  - 传统数据处理方法，无法高效处理如此海量数据
+.center[.width-90[![](./figures/trans/demand2.png)]]
+
+.center[北京地铁入口流量]
+.smallest[Haodong Yin, etc., Modeling and Simulating Passenger Behavior for a Station Closure in a Rail Transit Network, 2016]
 
 ---
-# 数据多样
+# 交通流量预测
 
-- 数据类型繁多
-  - 传统格式化数据
-  - 日志、音频、视频、图片、地理位置信息
-- 数据有多个属性的维度
-  - 如视频图像：内容，采集时间、地点、分辨率，进行图像分析后，还包括人数、天气、异常状态等属性
-- 对数据处理能力提出了更高要求
-
----
-# 数据价值密度低
-
-- 随着物联网的广泛应用，信息感知无处不在
-- 信息海量，但价值密度相对较低
-- 如何通过强大的人工智能算法更迅速完成数据价值「提纯」，是大数据时代亟待解决的难题
-
----
-class: middle, center
-
-# 大数据特征: 5V
-
-.center[4V + 真实性 (Veracity)]
-
-.center[.width-100[![](./figures/5feature.jpg)]]
-
-<!-- .center[Volume + Velocity + Variety + Value + ] -->
-
----
-# 数据真实
-
-- 数据质量和管理
-  - 高质量数据和有效数据管理，才能够保证分析结果的真实和价值
-  - 更强调真实有价值的数据
-- 挑战
-  - 一些企业或个人为了达到某种目的，可能操纵和伪造数据
-  - 数据来源可能过于单一
-  - 这都会造成分析效果不佳
-
----
-# 内容
-
-- 背景
-- 价值
-- 应用
-- 特征
-- .red[工作]
-- 平台
+.center[.width-90[![](./figures/trans/demand1.png)]]
+.smallest[Yun Wang, Deep Learning for Bus Passenger Demand Prediction Using Big Data]
 
 ???
 
-内容
+.smallest[Zhenzhu Wang, Yishuai Chen, Jian Su, Yuchun Guo, Yongxiang Zhao, etc. Measurement and Prediction of Regional Traffic Volume in Holidays, IEEE Intelligent Transportation Systems Conference (ITSC) 2019, pp.486-491]
+魏中锐，基于深度学习的交通流量预测，硕士学位论文，2019年，导师：郭宇春
 
-- 与20年前的日志处理系统几乎相同
-  - 采集：日志处理分析实现日志采集
-  - 存储：用文本文件或者关系数据库存储日志
-  - 分析：脚本语言实现文本分析
-  - 使用：通用报表系统实现展示
-
-.center[.width-90[![](./figures/flow.jpg)]]
 
 ---
-# 工作
+# 风险信息采集和分析
 
-- 采集和存储
-- 导入和预处理
-- 统计/分析
-- 挖掘
-
-.center[.width-100[![](./figures/flow.png)]]
+.center[.width-110[![](./figures/trans/acc4.png)]]
+.center[厦门公路网监控大数据平台]
+.smallest[Xiaoliang Fan, etc., Big Data Analytics and Visualization with Spatio-Temporal Correlations for Traffic Accidents, ICA3PP 2015]
 
 ---
-# 采集和存储
+# 风险信息采集和分析
 
-- 数据获取
-  - 从传感器和其它模拟和数字被测单元中自动采集信息
-- 存储
-  - 传统关系型数据库，Redis，MongoDB NoSQL数据库
-  - 大数据Hadoop分布式存储
-- 特点和挑战
-  - 并发数高，同时上千万用户访问和操作
-    - 火车票售票网站、双11购物网站，并发访问量峰值上千万
-  - 需要在采集端部署大数据才能支撑：负载均衡，分片
+.center[.width-100[![](./figures/trans/acc5.png)]]
+.center[厦门公路网事故时间/地理位置信息分析]
 
 ---
-# 数据导入和预处理
+# 区域风险预测
 
-- 导入
-  - 采集端有很多数据库
-  - 将数据导入集中大型分布式数据库，或存储集群
-- 预处理核心步骤
-  - 清洗、转换、简化
-- 特点和挑战
-  - 数据量大
-  - 每秒导入百兆、千兆
+- 北京公路网事故多发地区小时级预测
+  - 考虑天气、时间、日期（周日/周末/假日）、车速
+
+.center[.width-110[![](./figures/trans/acc1.png)]]
+.smallest[Honglei Ren, etc. A Deep Learning Approach to the Prediction of Short-term Traffic Accident Risk, 2017, arXiv:1710.09543v1]
+
+---
+# 区域风险预测
+
+- 北京公路网事故多发地区小时级预测结果
+
+.center[.width-110[![](./figures/trans/acc2.png)]]
+.smallest[Honglei Ren, etc. A Deep Learning Approach to the Prediction of Short-term Traffic Accident Risk, 2017, arXiv:1710.09543v1]
+
+---
+# 路段风险预测
+
+- 美国休斯顿公路网周日下午5点-6点路段风险预测
+
+.center[.width-90[![](./figures/trans/acc3.png)]]
+.smallest[Linhua Li, A GIS-Based Bayesian Approach For Analyzing Spatial-Temporal Patterns Of Traffic Crashes, MS Thesis, Texas A&M University, August 2006]
+
+---
+# 故障路段影响评估和规避
+
+.center[.width-110[![](./figures/trans/acc6.png)]]
+.center[.smaller[（a）根据当前事故的影响计算出的路线（b）驾驶员接近事故位置时受影响区域的时变扩展（c）根据影响的准确预测计算出的路线]]
+.smallest[Bei Pan, etc., Forecasting Spatiotemporal Impact of Traffic Incidents on Road Networks,
+]
 
 ???
-许多入门教程在导入数据时只教如何导入预处理过的数据，例如手写体数字或者电影评分数据，用一行代码就能搞定，但实际操作没那么简单。遇到实际问题，都需要先找到正确的数据集，最终预测的结论依赖于最初导入的数据。导入与预处理过程的特点和挑战主要是导入的
+(a) route calculated based on current incident’s impact (b) time-varying expansion of impacted region as driver approaches the incident location (c) route calculated based on accurate prediction of impact
+
+事故风险预测
+
+.center[.width-60[![](./figures/trans/acc7.png)]]
+.center[仿真结果，考虑人流移动性]
+.smallest[Quanjun Chen, etc., Learning Deep Representation from Big and Heterogeneous Data for Traffic Accident Inference, AAAI 2016]
 
 ---
-# 统计/分析
+# 运营
 
-- 预设主题
-  - 日常分析需求
-  - 分析、分类、汇总
-- 特点和挑战
-  - 数据量大，对系统资源，特别是I/O有极大占用
-- 分布式处理
-  - 分布式数据库、集群
-  - Hadoop，Storm，Spark
+- 服务国家、服务人民
+- 提质增效、企业利润
+
+.center[.width-90[![](./figures/profit.jpg)]]
 
 ---
-# 统计/分析
+# 服务
 
-.center[可视化]
+铁路在满足我国人民出行需求方面处于核心地位
 
-.center[.width-100[![](./figures/miscdata.png)]]
+.center[.width-80[![](./figures/trans-tools.jpg)]]
 
 ---
-# 挖掘
+# 用户
 
-- 不预先设定主题
-  - 从海量数据中发现隐含知识和规律
-  - 基于数据库理论、机器学习、人工智能、现代统计学
-- 典型算法
-  - 聚类：Kmeans
-  - 预测：SVM、NaiveBayes、线性回归
-- 工具
-  - Hadoop Mahout、Spark MLlib
-- 特点和挑战
-  - 算法复杂,计算涉及的数据量和计算量很大
+- 2018年呼和浩特局
+  - 旅客发送3566.6万人次，客票收入24.7亿元
+  - 2019年国家铁路旅客发送35.7亿人次
+
+.center[.width-90[![](./figures/age.png)]]
+
+---
+# 大数据用户分析
+
+.center[.width-100[![](./figures/revenue2.png)]]
+
+---
+# 大数据用户分析
+
+.center[.width-90[![](./figures/revenue.png)]]
+
+---
+# 用户运营生态
+
+- 客票、零售、WiFi、广告、购物、消费
+
+.center[.width-100[![](./figures/context.png)]]
 
 ???
-普遍的大数据处理流程至少应该满足这以上四个点的步骤，才能算得上是一个比较完整的大数据处理过程。当然，更加深入研究大数据流程的话，还会有更多有特点的、更加深入的、更加专业的大数据分析方法。
+
+http://www.woshipm.com/data-analysis/3450367.html
 
 ---
-# 内容
+# 客票
 
-- 背景
-- 价值
-- 应用
-- 特征
-- 工作
-- .red[平台]
+海量核心用户群，关系到国计民生
+
+.center[.width-70[![](./figures/ticket.jpg)]]
 
 ---
-# 数据中心
+# 动态票价
 
-.center[.width-80[![](./figures/dc1.png)]]
+- 客运营销
+  - 根据流量情况，动态调整票价
+  - 航空公司
 
-.center[廉价机器集群，普通计算机，有限寿命 (1000天)，数量多 (Millions)
-一个节点，既有计算，又有存储]
-
----
-# 数据中心
-
-.center[.width-100[![](./figures/dc2.png)]]
+.center[.width-90[![](./figures/price.jpg)]]
 
 ---
-# Map-Reduce 计算方法
+# 零售
 
-- Map
-  - 将大任务分解，在集群计算机上分别计算
-- Reduce
-  - 组合中间结果，得到最终结果
+- 互联网订餐系统
+- 高铁零售
 
-.center[.width-70[![](./figures/mr.png)]]
+.center[.width-80[![](./figures/sale2.jpg)]]
 
 ---
-class: middle, center
-# 架构
+# 网络及网络内容服务
 
-<!-- .center[决策、洞察、优化] -->
+- 站车WIFI运营服务系统
+  - 腾讯+吉利，高铁Wifi，43亿
+  - 视频、广告、购物、消费
 
-.center[.width-90[![](./figures/archi.png)]]
+.center[.width-70[![](./figures/wifi.jpg)]]
+
+---
+# 铁路用户大数据分析系统
+
+.center[.width-100[![](./figures/user.jpg)]]
 
 ---
 # 小结
 
-- 背景
-- 价值：更强决策力、洞察力和流程优化力
-- 应用：交通、金融、互联网
-- 特征：4V，5V
-- 工作：收集、清洗、分析、挖掘
-- 平台：数据中心、Map-Reduce计算模型
+- 问题
+  - 大数据时代，铁路运输面临重大机遇
+- 技术
+  - 大数据 + 人工智能技术
+  - 预测性分析、优化设计
+- 助力铁路运输运营
+  - 更强决策力
+  - 更深刻、全面的洞察能力
 
-???
-- 数据先行者，《带你了解不同大数据处理框架技术特点以及适合的解决方案》，2017-09-07，[链接](https://kknews.cc/tech/gbbobb8.html)
+---
+# 小结
+
+- 目标
+  - 现代化、智能化的铁路运输管理
+  - 安全、高效
+  - 客户满意
+  - 利润
+- 案例
+  - 交通流量分析与预测
+  - 风险监控、分析、预测与响应
+  - 现代化运营手段

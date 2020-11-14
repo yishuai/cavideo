@@ -145,7 +145,7 @@ class: middle, center
 ---
 class: middle, center
 
-# 七种学习任务
+# 八种学习任务
 ---
 class: middle, center
 
@@ -158,12 +158,14 @@ Classification
 # 分类：图片分类（ImageNet）
 
 .center[.width-90[![](../ai/figures/all/imagenet-validation.jpg)]]
----
+
+???
 # 分类：图片分类（ImageNet）
 
 .center[.width-90[![](../ai/figures/all/imagenet-validation1.jpg)]]
----
-# 分类：文本分类
+
+
+分类：文本分类
 
 - 垃圾邮件分类
 * 邮件特征
@@ -191,25 +193,29 @@ Regression
 
 学习“数值”
 ---
-# 线性回归与非线性回归
-直线：线性回归；曲线：非线性回归
-.center[.width-100[![](../ai/figures/all/poly-1.jpg)]]
----
-# 股市预测
+# 股价预测
 茅台股价和平均目标价
 
 .center[.width-100[![](../ai/figures/all/maotai.png)]]
 
 .center[预测涨跌，分类；预测股价，回归]
----
-# 例：预测气温
 
-- 预测明天是“热”还是“冷”：分类
-- 预测明天气温多少度：回归
+---
+# 线性回归与非线性回归
+直线：线性回归；曲线：非线性回归
+.center[.width-100[![](../ai/figures/all/poly-1.jpg)]]
+
+---
+# 讨论：分类与回归的区别
+
+- 例：预测气温
+  - 预测明天是“热”还是“冷”：分类
+  - 预测明天气温多少度：回归
 
 <!-- 按照最近几天的温度来预测明天的温度。 -->
 
 .center[.width-70[![](../ai/figures/all/weather.jpeg)]]
+
 ---
 class: middle, center
 
@@ -270,6 +276,13 @@ class: middle, center
 
 .center[.width-100[![](../ai/figures/all/clustering.png)]]
 ---
+# 聚类
+
+需要指定类的数目：3
+
+.center[.width-110[![](../ai/figures/all/k-means.png)]]
+
+---
 class: middle, center
 
 # 6）表征
@@ -297,7 +310,23 @@ class: middle, center
 .center[.width-80[![](../ai/figures/all/speech.jpg)]]
 
 ---
-# 小结：七种机器学习任务
+# 8）增强学习
+
+- 进行大量尝试
+- 跳进火坑也不怕
+
+.center[.width-70[![](../ai/figures/all/rl3.png)]]
+---
+# 增强学习
+
+- 不断尝试
+- 得到每一个位置的“价值”
+- 或者每一个位置下的最佳动作
+
+.center[.width-70[![](../ai/figures/all/rl.png)]]
+
+---
+# 小结：八种机器学习任务
 
 1. 分类
 1. 回归
@@ -306,6 +335,7 @@ class: middle, center
 1. 聚类
 1. 表征
 1. 结构化预测
+1. 增强学习
 
 ---
 # 内容
@@ -416,7 +446,7 @@ class: middle, center
 .center[利用文字的相关性]
 ---
 class: middle, center
-# 折衣服（2010）
+# 折毛巾（2010）
 <!-- <video width="700" controls>
     <source src="./video/towel.mp4" type="video/mp4">
 </video> -->
@@ -466,6 +496,26 @@ class: middle, center
 <video width="600" controls>
     <source src="../ai/video/lec1/go-2016.mp4" type="video/mp4">
 </video>
+
+---
+class: middle, center
+
+# Game
+
+Video: OpenAI Dota
+
+---
+class: middle, center
+# Walk
+
+Video: DeepMind Walk
+
+---
+class: middle, center
+
+# Robot
+
+Video: RoboCup 2018
 
 ---
 # 小结

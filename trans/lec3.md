@@ -23,17 +23,22 @@ class: middle, center
 
 - 目标检测、分割、识别
 
-- 困难：遮蔽、干扰、噪声
 
 .center[.width-100[![](figures/rail/rail.png)]]
 
 ---
-# 效果
+class: middle, center
+# 困难
 
-.center[.width-100[![](../ai/figures/all/retinanet.gif)]]
+遮蔽、干扰、噪声
 
-???
-https://towardsdatascience.com/review-retinanet-focal-loss-object-detection-38fba6afabe4
+---
+# 拖把狗
+.center[.width-80[![](../ai/figures/all/dog1.jpg)]]
+---
+# 蛋糕 dog
+.center[.width-80[![](../ai/figures/all/dog2.jpg)]]
+
 ---
 # 图像分割
 - Object Segmentation
@@ -117,6 +122,14 @@ https://github.com/matterport/Mask_RCNN
 # 情感识别
 
 .center[.width-100[![](../ai/figures/all/emotion.jpg)]]
+---
+# 交通流量计数
+
+.center[.width-100[![](../ai/figures/all/retinanet.gif)]]
+
+???
+https://towardsdatascience.com/review-retinanet-focal-loss-object-detection-38fba6afabe4
+
 ---
 class: middle, center
 # 交通流量计数
@@ -202,6 +215,7 @@ class: middle,center
 - 图像分割
 - 应用
 - .red[应注意的问题]
+
 ---
 # 应注意的问题
 - 准确率
