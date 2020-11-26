@@ -10,9 +10,9 @@ class: middle, center
 
 .smaller[网络智能实验室]
 
-.smaller[北京交通大学电子信息工程学院]
 
-.footnote[呼局中青班]
+
+.footnote[北京交通大学电子信息工程学院]
 ---
 # 内容
 - .red[背景]
