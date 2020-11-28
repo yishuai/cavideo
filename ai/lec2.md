@@ -1,16 +1,14 @@
 class: middle, center
 
-### AI技术和云技术在视频监控中的应用
+### 大数据时代下人工智能技术的应用与创新
 
-# AI技术算法
+# 机器学习算法
 
 陈一帅
 
 [yschen@bjtu.edu.cn](mailto:yschen@bjtu.edu.cn)
 
-北京交通大学电子信息工程学院
-
-.footnote[铁路综合视频监控维护管理培训班]
+.footnote[北京交通大学网络智能实验室]
 ---
 # 内容
 - 算法
