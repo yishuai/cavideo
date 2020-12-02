@@ -10,20 +10,20 @@ class: middle, center
 
 .smaller[网络智能实验室]
 
-
-
 .footnote[北京交通大学电子信息工程学院]
 
 ---
 # 内容
 
-- 问题
+- 背景
+- 概念
 - 应用
 
 ---
 # 内容
 
-- .red[问题]
+- .red[背景]
+- 概念
 - 应用
 
 ---
@@ -54,6 +54,13 @@ class: middle, center
   - .red[大数据]，.red[人工智能]
 
 ---
+# 内容
+
+- 背景
+- .red[概念]
+- 应用
+
+---
 class: middle, center
 
 # 什么是大数据？
@@ -79,8 +86,16 @@ Big Data
   - 需要新的处理模式
 
 ---
-class: middle, center
+# 价值金字塔模型
 
+- 数据
+- 知识
+- 信息
+- 智慧
+
+.center[.width-50[![](./figures/data.jpeg)]]
+
+---
 # 什么是人工智能？
 
 使计算机像人那样聪明
@@ -111,13 +126,6 @@ class: middle, center
 .center[.width-100[![](./figures/houseprice.jpg)]]
 
 ---
-# 生活中的人工智能
-
-预测股价
-
-.center[.width-100[![](../ai/figures/all/maotai.png)]]
-
----
 # 问题和机遇
 
 - 更强决策力、洞察力和流程优化力
@@ -127,19 +135,10 @@ class: middle, center
 .center[.width-70[![](./figures/decision.jpeg)]]
 
 ---
-# 价值金字塔模型
-
-- 数据
-- 知识
-- 信息
-- 智慧
-
-.center[.width-50[![](./figures/data.jpeg)]]
-
----
 # 内容
 
-- 问题
+- 背景
+- 概念
 - .red[应用]
 
 ???
@@ -197,25 +196,172 @@ class: middle, center
 .center[.width-70[![](./figures/sale.jpg)]]
 
 ---
-# 交通
+class: middle, center
 
-- 现代化、智能化的铁路运输管理
-  - 安全、高效
-  - 客户满意
-  - 利润
+# 铁路应用
 
-.center[.width-70[![](./figures/huhe-rail.png)]]
+.center[.width-50[![](./figures/rail/crh.jpeg)]]
 
 ---
-# 安全、高效
+class: middle, center
 
-- 交通流量分析与预测
-- 风险监控、分析、预测与响应
-
-.center[.width-70[![](./figures/huhe-rail-1.jpg)]]
+# 图像相关
 
 ---
-# 交通流量分析
+# 视频监控
+
+实例分割
+
+.center[.width-100[![](../ai/figures/all/maskrcnn.gif)]]
+
+---
+class: middle, center
+# 视频监控
+
+语义分割视频（2017）
+
+---
+class: middle, center
+# 缺陷检测
+
+视频
+
+---
+# 人脸识别
+
+- 刷脸进站
+
+.center[.width-60[![](../ai/figures/all/face-challenge.png)]]
+
+---
+# 交通流量计数
+
+.center[.width-100[![](../ai/figures/all/retinanet.gif)]]
+
+???
+https://towardsdatascience.com/review-retinanet-focal-loss-object-detection-38fba6afabe4
+
+---
+class: middle, center
+# 交通流量计数
+
+路口视频
+
+---
+# 交通信号识别
+
+.center[.width-90[![](../ai/figures/all/traffic-challenge.png)]]
+
+---
+class: middle, center
+# 铁轨识别
+
+视频
+
+---
+class: middle, center
+# 障碍物识别
+
+.center[.width-60[![](figures/rail/lineblocked.jpg)]]
+
+---
+class: middle, center
+# 障碍物检测
+
+.center[.width-90[![](figures/rail/Obstacle-train-tracks.jpg)]]
+
+???
+class: middle, center
+# 障碍物检测
+
+.center[.width-90[![](figures/rail/obstacle.png)]]
+
+---
+class: middle, center
+# 行人检测
+
+.center[.width-90[![](figures/rail/man.jpg)]]
+
+---
+class: middle, center
+# 站场安全
+
+.center[.width-80[![](figures/rail/sbb-cargo-1.jpg )]]
+
+---
+class: middle, center
+# 各种天气
+
+.center[.width-60[![](figures/rail/weather.png )]]
+
+---
+class: middle, center
+# 夜间
+
+.center[.width-90[![](figures/rail/night.png)]]
+
+---
+class: middle, center
+# 道口监控
+
+视频
+
+---
+class: middle, center
+# 机器人
+
+---
+# 工业机器人
+
+.center[.width-100[![](../ai/figures/all/maskrcnn-video.gif)]]
+
+---
+class: middle, center
+# 流水线机器人
+
+分捡物体视频（2018）
+
+---
+class: middle, center
+# 折毛巾（2010）
+
+<!-- <video width="700" controls>
+    <source src="./video/towel.mp4" type="video/mp4">
+</video> -->
+
+视频
+
+---
+class: middle, center
+# 自动驾驶（2016）
+
+视频
+
+---
+class: middle, center
+
+# 文本/语音相关
+
+---
+# 舆情监控
+
+.center[.width-100[![](../trans/figures/rail/yuqing.png)]]
+
+---
+# 人机对话
+
+.center[.width-100[![](../ai/figures/all/nlp2.jpg)]]
+
+---
+# 文本识别
+.center[.width-100[![](../ai/figures/all/text-challenge.png)]]
+
+---
+class: middle, center
+# 智能交通
+
+---
+# 流量监控
 
 .center[.width-90[![](./figures/trans/demand2.png)]]
 
@@ -223,7 +369,7 @@ class: middle, center
 .smallest[Haodong Yin, etc., Modeling and Simulating Passenger Behavior for a Station Closure in a Rail Transit Network, 2016]
 
 ---
-# 交通流量预测
+# 流量预测
 
 .center[.width-90[![](./figures/trans/demand1.png)]]
 .smallest[Yun Wang, Deep Learning for Bus Passenger Demand Prediction Using Big Data]
@@ -233,7 +379,6 @@ class: middle, center
 .smallest[Zhenzhu Wang, Yishuai Chen, Jian Su, Yuchun Guo, Yongxiang Zhao, etc. Measurement and Prediction of Regional Traffic Volume in Holidays, IEEE Intelligent Transportation Systems Conference (ITSC) 2019, pp.486-491]
 魏中锐，基于深度学习的交通流量预测，硕士学位论文，2019年，导师：郭宇春
 
-
 ---
 # 风险信息采集和分析
 
@@ -242,7 +387,7 @@ class: middle, center
 .smallest[Xiaoliang Fan, etc., Big Data Analytics and Visualization with Spatio-Temporal Correlations for Traffic Accidents, ICA3PP 2015]
 
 ---
-# 风险信息采集和分析
+# 风险信息分析
 
 .center[.width-100[![](./figures/trans/acc5.png)]]
 .center[厦门公路网事故时间/地理位置信息分析]
@@ -290,6 +435,21 @@ class: middle, center
 .smallest[Quanjun Chen, etc., Learning Deep Representation from Big and Heterogeneous Data for Traffic Accident Inference, AAAI 2016]
 
 ---
+class: middle, center
+
+# 运营优化
+
+---
+# 运输管理
+
+- 现代化、智能化的铁路运输管理
+  - 安全、高效
+  - 客户满意
+  - 利润
+
+.center[.width-60[![](./figures/huhe-rail.png)]]
+
+---
 # 运营
 
 - 服务国家、服务人民
@@ -298,14 +458,14 @@ class: middle, center
 .center[.width-90[![](./figures/profit.jpg)]]
 
 ---
-# 服务
+# 用户分析
 
 铁路在满足我国人民出行需求方面处于核心地位
 
 .center[.width-80[![](./figures/trans-tools.jpg)]]
 
 ---
-# 用户
+# 用户分析
 
 - 2018年呼和浩特局
   - 旅客发送3566.6万人次，客票收入24.7亿元
@@ -314,17 +474,24 @@ class: middle, center
 .center[.width-90[![](./figures/age.png)]]
 
 ---
-# 大数据用户分析
+# 用户分析
+
+海量核心用户群，关系到国计民生
+
+.center[.width-70[![](./figures/ticket.jpg)]]
+
+---
+# 用户分析
 
 .center[.width-100[![](./figures/revenue2.png)]]
 
 ---
-# 大数据用户分析
+# 用户分析
 
 .center[.width-90[![](./figures/revenue.png)]]
 
 ---
-# 用户运营生态
+# 用户运营
 
 - 客票、零售、WiFi、广告、购物、消费
 
@@ -333,13 +500,6 @@ class: middle, center
 ???
 
 http://www.woshipm.com/data-analysis/3450367.html
-
----
-# 客票
-
-海量核心用户群，关系到国计民生
-
-.center[.width-70[![](./figures/ticket.jpg)]]
 
 ---
 # 动态票价
@@ -392,7 +552,8 @@ http://www.woshipm.com/data-analysis/3450367.html
   - 安全、高效
   - 客户满意
   - 利润
-- 案例
+- 应用
   - 交通流量分析与预测
+  - 故障检测
   - 风险监控、分析、预测与响应
   - 现代化运营手段

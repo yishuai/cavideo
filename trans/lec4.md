@@ -10,8 +10,6 @@ class: middle, center
 
 .smaller[网络智能实验室]
 
-
-
 .footnote[北京交通大学电子信息工程学院]
 ---
 # 内容
@@ -57,13 +55,12 @@ class: middle, center
 
 ---
 class: middle, center
-# 效果（2017）
+# 语义分割
+
+视频（2017）
 <!-- <video width="700" controls>
     <source src="./video/seg.mp4" type="video/mp4">
 </video> -->
-<div class="aspect-ratio">
-  <iframe src="//player.bilibili.com/player.html?aid=54907833&cid=96023749&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
-</div>
 
 ---
 # 实例分割
@@ -96,9 +93,6 @@ class: center, middle
 
 # 应用
 ---
-# 工业机器人
-.center[.width-100[![](../ai/figures/all/maskrcnn-video.gif)]]
----
 # 3D建筑物
 .center[.width-100[![](../ai/figures/all/maskrcnn-project_3dbuildings.png)]]
 ---
@@ -107,76 +101,6 @@ class: center, middle
 
 ???
 https://github.com/matterport/Mask_RCNN
----
-# 人脸检测
-.center[.width-90[![](../ai/figures/all/face-challenge.png)]]
----
-# 人脸识别
-- 美国马里兰州枪击事件，人脸识别技术找出了嫌犯
-- 流行歌星泰勒·斯威夫特，演唱会上过滤狂热粉丝和跟踪狂
-- 收容所追踪收容所和避难所的使用情况
----
-# 姿势检测与识别
-
-.center[.width-100[![](../ai/figures/all/pose.jpg)]]
----
-# 情感识别
-
-.center[.width-100[![](../ai/figures/all/emotion.jpg)]]
----
-# 交通流量计数
-
-.center[.width-100[![](../ai/figures/all/retinanet.gif)]]
-
-???
-https://towardsdatascience.com/review-retinanet-focal-loss-object-detection-38fba6afabe4
-
----
-class: middle, center
-# 交通流量计数
-
-<!-- <video width="700" controls>
-    <source src="./video/traffic-count.mp4" type="video/mp4">
-</video> -->
-<div class="aspect-ratio">
-  <iframe src="//player.bilibili.com/player.html?aid=54907357&cid=96026074&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
-</div>
----
-class: middle, center
-# 交通流量计数
-
-<!-- <video width="700" controls>
-    <source src="./video/traffic-count2.mp4" type="video/mp4">
-</video> -->
-<div class="aspect-ratio">
-  <iframe src="//player.bilibili.com/player.html?aid=54907492&cid=96024461&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
-</div>
----
-# 交通信号识别
-
-.center[.width-90[![](../ai/figures/all/traffic-challenge.png)]]
----
-class: middle, center
-# 铁轨检测
-<!-- <video width="700" controls>
-    <source src="./video/railway.mp4" type="video/mp4">
-</video> -->
-<div class="aspect-ratio">
-  <iframe src="//player.bilibili.com/player.html?aid=54907949&cid=96020491&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
-</div>
----
-class: middle, center
-# 道口监控
-<!-- <video width="700" controls>
-    <source src="./video/crossing.mp4" type="video/mp4">
-</video> -->
-<div class="aspect-ratio">
-  <iframe src="//player.bilibili.com/player.html?aid=54906667&bvid=BV1F4411T7FZ&cid=96023038&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
-</div>
-
----
-# 文本识别
-.center[.width-100[![](../ai/figures/all/text-challenge.png)]]
 ---
 # 清晰度增强
 .center[.width-100[![](../ai/figures/all/vision_translation.jpg)]]
@@ -191,6 +115,15 @@ class: middle, center
 
 <br>
 .center[.width-100[![](../ai/figures/all/pix2pix.jpg)]]
+
+---
+# 姿势检测与识别
+
+.center[.width-100[![](../ai/figures/all/pose.jpg)]]
+---
+# 情感识别
+
+.center[.width-100[![](../ai/figures/all/emotion.jpg)]]
 ---
 # 图像理解
 
@@ -203,9 +136,9 @@ class: middle,center
 <!-- <video width="700" controls>
     <source src="./video/caption.mp4" type="video/mp4">
 </video> -->
-<div class="aspect-ratio">
-  <iframe src="//player.bilibili.com/player.html?aid=54906321&cid=96021881&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
-</div>
+
+视频
+
 <!-- .center[.width-100[![](../ai/figures/all/caption1.jpg)]] -->
 <!-- .center[.width-100[![](../ai/figures/all/captioning_model.jpg)]] -->
 
