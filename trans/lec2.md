@@ -1,6 +1,8 @@
 class: middle, center
 
-### 大数据时代下人工智能技术的应用与创新
+##### 中国铁路兰州局集团有限公司“十百千”人才项目
+
+## 面向智能铁路的人工智能技术与应用
 
 # 大数据
 
@@ -8,9 +10,8 @@ class: middle, center
 
 .smaller[[yschen@bjtu.edu.cn](mailto:yschen@bjtu.edu.cn)]
 
-.smaller[网络智能实验室]
 
-.footnote[北京交通大学电子信息工程学院]
+.footnote[北京交通大学网络智能实验室]
 
 ---
 # 内容

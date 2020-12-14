@@ -8,7 +8,7 @@ class: middle, center
 
 [yschen@bjtu.edu.cn](mailto:yschen@bjtu.edu.cn)
 
-北京交通大学电子信息工程学院
+北京交通大学网络智能实验室
 
 .footnote[铁路综合视频监控维护管理培训班]
 
